@@ -22,7 +22,7 @@
   --background-color: #ffffff; /* Background color for the entire website, including individual sections */
   --default-color: #272829; /* Default color used for the majority of the text content across the entire website */
   --heading-color: #050d18; /* Color for headings, subheadings and title throughout the website */
-  --accent-color: #dd14a1; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
+  --accent-color: #C9A875; /* Accent color that represents your brand on the website. It's used for buttons, links, and other elements that need to stand out */
   --surface-color: #ffffff; /* The surface color is used as a background of boxed elements within sections, such as cards, icon boxes, or other elements that require a visual separation from the global background. */
   --contrast-color: #ffffff; /* Contrast color for text, ensuring readability against backgrounds of accent, heading, or default colors. */
 }
@@ -45,12 +45,15 @@
   --surface-color: #ffffff;
 }
 
+
 .dark-background {
-  --background-color: #a141a1;
-  --default-color: #ffffff;
-  --heading-color: #ffffff;
-  --surface-color: #a04b95;
-  --contrast-color: #ffffff;
+  --background-color: #341A31; /* deep plum */
+  --default-color:    #FFFFFF; /* body text */
+  --heading-color:    #FFFFFF;
+  --surface-color:    #2B1E2A; /* panels/cards */
+  --contrast-color:   #FFFFFF; /* text on primaries */
+  /* optional accent */
+  --accent-color:     #C9A875; /* soft gold highlights */
 }
 
 /* Smooth scroll */
