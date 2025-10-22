@@ -47,10 +47,10 @@
 
 
 .dark-background {
-  --background-color: #341A31; /* deep plum */
+  --background-color: #000000; /* deep plum */
   --default-color:    #FFFFFF; /* body text */
   --heading-color:    #FFFFFF;
-  --surface-color:    #2B1E2A; /* panels/cards */
+  --surface-color:    #000000; /* panels/cards */
   --contrast-color:   #FFFFFF; /* text on primaries */
   /* optional accent */
   --accent-color:     #C9A875; /* soft gold highlights */
